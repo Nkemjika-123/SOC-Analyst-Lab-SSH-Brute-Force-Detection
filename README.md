@@ -23,9 +23,14 @@ hydra -l ubuntu -P /usr/share/wordlists/rockyou.txt ssh://<target-ip>
 ## 🔍 Detection in Splunk
 SPL queries used:
 index=main "Failed password"
-index=main "Failed password"
+| rex "from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
 | stats count by src_ip
-| sort -count
+| sort – count
+
+index=main "Failed password"
+| rex "for (invalid user )?(?<user>\w+)"
+| stats count by user
+| sort - count
 
 
 ## 📊 Findings
