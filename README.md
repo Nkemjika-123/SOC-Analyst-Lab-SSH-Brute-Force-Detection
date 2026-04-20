@@ -60,8 +60,17 @@ An alert was configured in Splunk to trigger when failed login attempts exceed a
   
  ![Failed Login](FailedLogin.png)
 
-AlertCreation.png
-AlertCreationCont.png
+ - Alert Creation
+
+![Alert Creation](AlertCreation.png)
+
+- Alert CreationCont
+  
+![Alert CreationCont](AlertCreationCont.png)
+
+- Alert Creation Saved
+  
+![Alert Creation Saved](AlertCreationSaved.png)
 
 ## 📌 Conclusion
 This project demonstrates how brute-force attacks can be detected using log analysis and SIEM tools, highlighting the importance of proactive monitoring in cybersecurity operations.
