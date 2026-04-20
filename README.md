@@ -45,11 +45,11 @@ An alert was configured in Splunk to trigger when failed login attempts exceed a
 
 ## 📷 Screenshots
 - Hydra attack
-- 
+  
 ![Hydra Attack](https://github.com/Nkemjika-123/SOC-Analyst-Lab-SSH-Brute-Force-Detection/blob/main/hydraattack.png)
 
-- Attaching IP
-- 
+- Attacking IP
+  
  ![Hydra Attack](AttackingIP.png)
 
 - SPL query results
